@@ -1,0 +1,115 @@
+/* Header */
+.topnav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    float: left;
+}
+
+
+.rightnav {
+    float: right;
+}
+
+#signinbutton {
+    background-color: #4583ed;
+    border: none;
+    color: white;
+    margin-left: 40px;
+    margin-right: 20px;
+    margin-top: 5px;
+    width: 84px;
+    height: 30px;
+}
+
+a {
+    font-family: Arial, sans-serif;
+    display: block;
+    font-size: 13px;
+    text-decoration: none;
+    color: #57473f;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Center */
+
+img {
+    padding-top: 10%;
+    padding-bottom: 2%;
+    display: block;
+    margin: auto;
+}
+
+
+.search-bar{
+    margin: auto;
+    width: 582px;
+    height: 44px;
+    border: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+}
+input {
+    display: block;
+    margin: auto;
+    border: none;
+    width: 527px;
+    height: 34px;
+
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.submitbutton {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    margin-top: 25px;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    float: right;
+}
+
+.submitbutton:hover {
+    border: 1px solid lightgray;
+}
+
+
+
+/* Footer */
+        
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    font-size: 14px;
+}
+
+footer  ul{
+    background-color: #f2f2f2;
+}
